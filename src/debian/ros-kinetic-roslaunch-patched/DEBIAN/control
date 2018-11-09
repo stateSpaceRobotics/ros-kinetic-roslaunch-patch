@@ -1,0 +1,10 @@
+Package: ros-kinetic-roslaunch-patched
+Version: 1.0.0
+Architecture: amd64
+Maintainer: zack <zdt26@msstate.edu>
+Installed-Size: 22
+Replaces: ros-kinetic-roslaunch
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: Patches roslaunch config.py
