@@ -14,7 +14,7 @@ set -e
 # the debian-policy package
 
 diversion_added_version=1.0.0
-this_version=1.0.0
+this_version=1.0.1
 
 config_file='/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/config.py'
 
@@ -23,8 +23,7 @@ if
         dpkg --compare-versions "$2" lt "$diversion_added_version" ||
         dpkg --compare-versions "$this_version" lt "$2"
 then
-        dpkg-divert --add --package ros-kinetic-roslaunch-patched --rename --divert \
-	$config_file.original $config_file
+        dpkg-divert --package ros-kinetic-roslaunch-patched --divert $config_file.original --rename $config_file
 fi
 
 # dh_installdeb will replace this with shell code automatically

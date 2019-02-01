@@ -20,7 +20,7 @@ set -e
 
 
 diversion_added_version=1.0.0
-this_version=1.0.0
+this_version=1.0.1
 
 config_file='/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/config.py'
 
@@ -40,7 +40,7 @@ fi
 
 case "$1,$losing_diversion" in
 remove,*|abort-install,*|disappear,*|*,y)
-        dpkg-divert --remove --package ros-kinetic-roslaunch-patched --rename $config_file
+        dpkg-divert --package ros-kinetic-roslaunch-patched --rename --remove $config_file
         ;;
 esac
 

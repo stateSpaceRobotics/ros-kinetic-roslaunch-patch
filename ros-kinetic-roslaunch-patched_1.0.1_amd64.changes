@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Thu, 31 Jan 2019 00:00:00 -0600
+Source: ros-kinetic-roslaunch-patched
+Binary: ros-kinetic-roslaunch-patched
+Architecture: source amd64
+Version: 1.0.1
+Distribution: unstable
+Urgency: medium
+Maintainer: zack <zdt26@msstate.edu>
+Changed-By: zack <zdt26@msstate.edu>
+Description:
+ ros-kinetic-roslaunch-patched - Patches roslaunch config.py
+Changes:
+ ros-kinetic-roslaunch-patched (1.0.1) unstable; urgency=medium
+ .
+   * Update configuration scripts.
+Checksums-Sha1:
+ 93d2e986451bf0aac3fb1d72cba4b6425d99a174 675 ros-kinetic-roslaunch-patched_1.0.1.dsc
+ c496d8036d608e9ce01c7b26aa5fdf871c0263b7 3340 ros-kinetic-roslaunch-patched_1.0.1.tar.xz
+ 18477b83bbc9fc37030c942c92e5f4e5a8aa0352 3432 ros-kinetic-roslaunch-patched_1.0.1_amd64.deb
+Checksums-Sha256:
+ feae341a7c5fc1350f69d3a7fe869884920034ab9bf75e8307968ed6a82285ae 675 ros-kinetic-roslaunch-patched_1.0.1.dsc
+ ebd8e9c93b17585a4882a4dfad25a704e76e6f507ee217d102a6a43fcc4f7c87 3340 ros-kinetic-roslaunch-patched_1.0.1.tar.xz
+ 9f8464f571985c3caf612db89bdbeeaa946e5509e1b98a21e3cfeba2de5d7155 3432 ros-kinetic-roslaunch-patched_1.0.1_amd64.deb
+Files:
+ 47171e3dc38709260df03f6ced8947c4 675 unknown optional ros-kinetic-roslaunch-patched_1.0.1.dsc
+ 927ae99d311ab8147ba56eaf09b59b69 3340 unknown optional ros-kinetic-roslaunch-patched_1.0.1.tar.xz
+ 0c75a1bd69f1ea881316adcc453650af 3432 unknown optional ros-kinetic-roslaunch-patched_1.0.1_amd64.deb

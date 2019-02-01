@@ -19,12 +19,12 @@ set -e
 
 
 diversion_added_version=1.0.0
-this_version=1.0.0
+this_version=1.0.1
 
 config_file='/opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/config.py'
 
 if
-        test "$1" = configure
+        test "$1" = configure -o "$1" = triggered
 then
         cat $config_file.original > $config_file
 

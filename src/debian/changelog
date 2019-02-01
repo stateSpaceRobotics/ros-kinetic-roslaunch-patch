@@ -1,3 +1,9 @@
+ros-kinetic-roslaunch-patched (1.0.1) unstable; urgency=medium
+
+  * Update configuration scripts.
+
+ -- zack <zdt26@msstate.edu>  Thu, 31 Jan 2019 00:00:00 -0600
+
 ros-kinetic-roslaunch-patched (1.0.0) unstable; urgency=medium
 
   * Initial Release.
